@@ -1,0 +1,13 @@
+<a  (click)="selectedItem(recipie.name)" class="list-group-item clearfix" >
+    <div class="pull-left">
+        <h4 class="list-group-item-heading">
+            Recipie Name: {{recipie.name}}
+        </h4>
+        <p class="list-group-item-text">
+            Description : {{recipie.description}}
+        </p>
+    </div>
+    <span>
+        <img src="{{recipie.imagePath}}" alt="" class="img-responsive" style="max-height: 50px;">
+    </span>
+</a>
